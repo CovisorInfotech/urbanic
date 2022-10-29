@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- OwlCarousel2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    p{font-size: 14px;
+    margin: 0px;}
+    #sidbarb img{width: 60px;}
+        .pr-1{padding-right:1px;}
+    .pl-1{padding-left:1px;}
+</style>
+
+</head>
+<body>
+    <!-- d-flex flex-row -->
+<header class="d-md-block d-lg-block d-none d-sm-none">
+    <div class="">
+    <div class="top-head">    
+        <div class="d-flex flex-row p-2 container">    
+            <div class="col-2 col-sm-2 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-none d-sm-none d-md-block d-lg-block m-auto div-item">
+                <div>
+                    <span><i class="fa-solid fa-bars text-white"></i></span> <img src="assets/images/logo.png" class="w-25" alt="Logo">
+                </div>
+            </div>
+            <div class="col-9 col-sm-9 col-md-7 col-lg-7 col-xl-7 col-xxl-7 m-auto div-item">
+                <div class="">
+                    <div class="d-flex">
+                      <span class="btn btn-light rounded-0 shadow-none"><i class="fas fa-search"></i></span>  
+                      <input id="search-focus" type="search" class="form-control rounded-0 b-none" placeholder="Search for ID, category and more">
+                    </div>
+                  </div>
+            </div>
+            <!-- <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-none d-sm-none d-md-block d-lg-block m-auto div-item">
+                <div>
+                    <button type="button" class="btn btn-outline-warning">Login</button>
+                </div>
+            </div> -->
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 m-auto div-item">
+                <div>
+                    <ul class="list-unstyled d-flex m-auto">
+                        <li class="m-auto text-white d-flex"><i class="fa-solid fa-cart-plus"></i> <span class="d-none d-sm-none d-md-block d-lg-block cart-nr">Cart</span></li>
+                        <li class="m-auto text-white d-flex"><i class="fa-solid fa-user"></i> <span class="d-none d-sm-none d-md-block d-lg-block sign-nr">Sign in / Sign up</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="d-none d-sm-none d-md-block d-lg-block bg-head-back bg-dark">
+        <div>
+            <ul class="list-unstyled d-flex mb-3">
+                <li class="nav-link active"><a href="" class="text-decoration-none text-white">Top</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Bottoms</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Dresses & Skirts</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Co-ords</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Sports</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Jewelry</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Bags</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Lingerie</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Pyiamas</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Swimwear</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none text-white">Curve</a></li>
+                <!-- <li class="nav-link"><a href="">Sweaters & Sweatshirts</a></li>
+                <li class="nav-link"><a href="">Outerwears</a></li>
+                <li class="nav-link"><a href="">Phone Accessories</a></li>
+                <li class="nav-link"><a href="">other Accessories</a></li> -->
+            </ul>
+        </div>
+    </nav>    
+</div>
+</header> 
+
+
+<section class="dis-sirvi d-md-none d-lg-none d-block d-sm-block" id="discount-sirvi">
+    <div class=" bg-gradient">
+        <div class="container">
+            <div class="row pt-2 pb-2 m-auto" id="" >
+                <div class="col-2 col-sm-2 m-auto"><a href="index.html"><center><span><img src="assets/images/left-aro.png" alt="" width="100%"></span></center></a></div>
+                <div class="col-2 col-sm-2 m-auto"><center><span><img src="assets/images/search.png" alt="" width="100%"></span></center></div>
+                <div class="col-4 col-sm-4 m-auto"><center><a href="" class="text-decoration-none"><img src="assets/images/logo.png" class="log-nr" alt="" width="70%"></a></center></div>
+                <div class="col-2 col-sm-2 m-auto"><center><span class=""><img src="assets/images/del.png" alt="" width="100%"></span></center></div>
+                <div class="col-2 col-sm-2 m-auto"><center><span class=""><img src="assets/images/bag.png" alt="" width="100%"></span></center></div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product-de">
+    <div class="product-box">
+    <div class="pb-4">
+        <div class="row m-auto">
+            <div class=" col-md-6 col-lg-5 col-xl-5 col-xxl-5 p-0 slide-img">
+            <div class="row m-0">
+                <div class="col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-none d-sm-none d-md-block d-lg-block">
+                    <ul class="list-unstyled side-img owl-dots">
+                        <li class="owl-dot active"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        <li class="owl-dot"><img src="assets/images/detalis.jfif" alt="" width="100%"></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-10 col-lg-10 col-xl-10 col-xxl-10  p-0">
+                <div class="owlCarousel owl-carousel" id="owl-sirvi">
+                <div class="items"><img src="assets/images/detalis.jfif" alt="" ></div>
+                <div class="items"><img src="assets/images/detalis.jfif" alt="" ></div>
+                <div class="items"><img src="assets/images/detalis.jfif" alt="" ></div>
+                <div class="items"><img src="assets/images/detalis.jfif" alt="" ></div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-7 col-xl-7 col-xxl-7">
+                <div class="container-sirvi">
+                <div class="mb-4">
+                    <div class="row coat"><span class="col-10 col-sm-10 col-md-10 col-lg-10"><h4 class="m-auto">Button Duffle Coat</h4></span><span class="col-2 col-sm-2 col-md-2 col-lg-2"><img src="assets/images/share.png" class="h4-color float-end d-block d-sm-block d-md-none d-lg-none" alt=""></span></div>
+                    <hr>
+                    <h4><span class="text-danger">-20%</span><span class="str-price"><strike class="text-secondary">₹1,790</strike></span></h4>
+                    <h4><span>₹1,432</span></h4>
+                </div>
+
+                <div class="mb-4">
+                    <form action="">
+                        <p class="qty">
+                            <label for="qty"><b>Quantity:</b></label><br>
+                            <button class="border border-secondary" aria-hidden="true">&minus;</button>
+                            <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                            <button class="border border-secondary" aria-hidden="true">&plus;</button>
+                        </p>
+                    </form>			
+                </div>
+
+                <div class="mb-4">
+                 <h5><span class="h4-color">Color:</span><span> Brown</span></h5>   
+                 <ul class="list-unstyled d-flex">
+                    <li><span class="bg-primary rou-50"></span></li>
+                    <li><span class="bg-success rou-50"></span></li>
+                    <li><span class="bg-info rou-50"></span></li>
+                    <li><span class="bg-warning rou-50"></span></li>
+                 </ul>
+                </div>
+
+                <div>
+                    <div class="row"><span class="col-6 col-sm-6 col-md-6 col-lg-6"><h5 class="h4-color">Size</h5></span><span class="col-6 col-sm-6 col-md-6 col-lg-6"><h5 class="h4-color float-end"><a href="size-guide.html">Size Guide <i class="fa-solid fa-chevron-right"></i></a></h5></span></div>
+                    <ul class="list-unstyled d-flex">
+                       <li class="m-2"><span class="btn btn-outline-secondary">S</span></li>
+                       <li class="m-2"><span class="btn btn-outline-secondary">M</span></li>
+                       <li class="m-2"><span class="btn btn-outline-secondary">L</span></li>
+                       <li class="m-2"><span class="btn btn-outline-secondary">XL</span></li>
+                    </ul>
+                </div>
+
+                
+               
+                <div class="">
+                    <ul class="nav nav-pills d-flex border border-secondary p-2" role="tablist">
+                        <li class="m-auto"><a class="" data-bs-toggle="pill" href="#f">Description</a></li>
+                        <li class="m-auto"><a class="" data-bs-toggle="pill" href="#g">Wash Care</a></li>
+                    </ul>
+                    <!-- <ul class="nav nav-pills" role="tablist">
+                        <li class="">
+                          <a class="nav-link active" data-bs-toggle="pill" href="#f">CM</a>
+                        </li>
+                        <li class="">
+                          <a class="nav-link" data-bs-toggle="pill" href="#g">IN</a>
+                        </li>
+                      </ul> -->
+                    <div class="tab-content border border-secondary p-2">
+                        <div id="f" class="tab-pane active">
+                            <div>
+                                <p class="text-justify">
+                                    <b>Product Code :</b> NSM236G31<br>
+                                    Wine 4 piece set crafted with butter-soft satin fabric & lace trims.<br>
+                                    It comprises of:<br>
+                                    1. Tie-up robe<br>
+                                    2. Top<br>
+                                    3. Capri<br>
+                                    4. Long nighty
+                                </p>
+                            </div>
+                        </div>
+                        <div id="g" class="tab-pane fade">
+                          <p>
+                            Handwash<br>
+                            Water Temperature 30oC<br>
+                            Do Not Bleach<br>
+                            Do Not Iron<br>
+                            Do Not Dry Clean<br>
+                            Do Not Tumble Dry<br>
+                            Drip Dry in Shade
+                          </p>
+                        </div>
+                        
+                   </div>
+                </div>
+
+                 
+                <div class="pt-4 pb-4">
+                    <div class="">
+                        <div class="">
+                            <h4>Service & Policy</h4>
+                            <div>
+                                <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> Cash on delivery available in most areas </p>
+                                <p class="border border-secondary p-2"><i class="fa-regular fa-money-bill-1"></i> Cash on delivery available in most areas  <span class="text-success">(saving ₹99) </span></p>
+                                <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> 10 days easy returns with free pick up </p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="pt-4 pb-4">
+                    <div class="">
+                        <div class="">
+                            <h4>Delivery Info</h4>
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="Enter a Pincode" aria-label="Search" aria-describedby="search-addon" />
+                                <button type="button" class="btn btn-dark">Check</button>
+                              </div>
+                            <p class="mt-2">Delivery date: Enter pincode to check</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="pt-4 pb-4">
+                    <div class="" id="cm-in">
+                    <div class="border border-secondary p-2">
+                    <div><span>Model Stats</span></div>
+                    <div class="float-end cm-in-box">    
+                    <ul class="nav nav-pills" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="pill" href="#tt">CM</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#rr">IN</a>
+                      </li>
+                    </ul>
+                    </div>
+                    </div>
+                  
+                    <!-- Tab panes -->
+                    <div class="row border border-secondary m-0">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3"><img src="assets/images/table.jfif" alt="" class="w-100 mt-2 mb-2"></div>
+                    <div class="tab-content col-9 col-sm-9 col-md-9 col-lg-9">
+                        <div>
+                            <ul class="list-unstyled d-flex border-bottom m-auto pb-2 pt-2 kr-fi">
+                                <li>kristina-s</li>
+                                <li>Fitting: S</li>
+                            </ul>    
+                      </div>   
+                      <div>
+                        <ul class="list-unstyled d-flex m-auto">
+                            <li class="m-auto">Height</li>
+                            <li class="m-auto">Weight</li>
+                            <li class="m-auto">Bust</li>
+                            <li class="m-auto">Waist</li>
+                            <li class="m-auto">Hips</li>
+                        </ul>    
+                      </div>  
+                      <div id="tt" class="tab-pane active">
+                        <ul class="list-unstyled d-flex m-auto list-li">
+                            <li>180cm</li>
+                            <li>56kg</li>
+                            <li>86cm</li>
+                            <li>63cm</li>
+                            <li>96cm</li> 
+        
+                        </ul>    
+                    </div>
+                      <div id="rr" class="tab-pane fade">
+                        <ul class="list-unstyled d-flex m-auto list-li">
+                            <li>180cmvv</li>
+                            <li>56kgvv</li>
+                            <li>86cm</li>
+                            <li>63cm</li>
+                            <li>96cm</li> 
+                        </ul>    
+                    </div>
+                      
+                    </div>
+                    </div>
+        
+        
+                  </div>
+        </div>
+
+        <div class="pt-4 pb-4">
+            <div class="accordion" id="accordionExample">
+                <div class="border border-secondary">
+                  <div class="border-box p-2"><h5>Detail</h5></div>
+                  <div id="" class="row m-0" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    
+                  </div>
+                  
+                  <div id="collapseTwo" class="row m-0 accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                        <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                    </div>
+                  </div>
+                  <h2 class="border-top border-secondary" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       View More
+                    </button>
+                  </h2>
+                </div>
+              </div>
+        </div>
+
+        
+        <div class="" id="cm-in">
+            <div class=" pb-2">
+            <div><span class="pm">Product Measurements</span></div>
+            <div class="float-end cm-in-box">    
+            <ul class="nav nav-pills" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#r">CM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#t">IN</a>
+              </li>
+            </ul>
+            </div>
+            </div>
+          
+            <!-- Tab panes -->
+            <div class="row border border-secondary m-0">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 nr-box">
+                <ul class="list-unstyled m-auto">
+                    <li class="m-auto pb-2 pt-2">Size</li>
+                    <li class="m-auto pb-2 pt-2">Length</li>
+                    <li class="m-auto pb-2 pt-2">Shoulder</li>
+                    <li class="m-auto pb-2 pt-2">Bust</li>
+                    <li class="m-auto pb-2 pt-2">Sleeve</li>
+                    <li class="m-auto pb-2 pt-2">Sleeve Width</li>
+                </ul>    
+            </div>
+            <div class="tab-content col-8 col-sm-8 col-md-8 col-lg-8">
+                <div>
+                    <ul class="list-unstyled d-flex border-bottom m-auto list-li pb-2 pt-2">
+                            <li>S</li>
+                                <li>M</li>
+                                    <li>L</li>
+                                        <li>XL</li>
+                    </ul>    
+              </div>  
+              <div id="r" class="tab-pane active">
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                <li>20.3</li>
+                <li>20.7</li>
+                <li>21.3</li>
+                <li>21.9</li>
+                </ul> 
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>20.3</li>
+                    <li>20.7</li>
+                    <li>21.3</li>
+                    <li>21.9</li>
+                    </ul>
+                    <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                        <li>20.3</li>
+                        <li>20.7</li>
+                        <li>21.3</li>
+                        <li>21.9</li>
+                        </ul>
+                        <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                            <li>20.3</li>
+                            <li>20.7</li>
+                            <li>21.3</li>
+                            <li>21.9</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                                <li>20.3</li>
+                                <li>20.7</li>
+                                <li>21.3</li>
+                                <li>21.9</li>
+                                </ul>
+
+            </div>
+              <div id="t" class="tab-pane fade">
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>    
+            </div>
+              
+            </div>
+            </div>
+
+
+          </div>
+                
+                
+
+                </div>
+
+                <div class="d-none d-sm-none d-md-block d-lg-block d-flex add-cart-pc">
+                    <div class="row">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 " id="shareDropdownDetail">
+                        <div class="shadow ul-div">
+                        <ul class="d-flex list-unstyled">
+                            <li><a rel="nofollow" href="https://www.facebook.com" target="_blank "><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a rel="nofollow" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://api.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="https://api.whatsapp.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                     </div>   
+                    <button type="button" class="btn btn-outline-secondary w-100 p-2"><i class="fa-solid fa-share-nodes"></i></button>
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-secondary w-100 p-2"><i class="fa-regular fa-heart"></i></button></div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6"><button class="btn btn-danger w-100 p-2"><i class="fa-solid fa-cart-plus"></i> ADD TO CART</button></div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</section>  
+
+
+<!-- <section id="policy">
+    <div class="policy-box">
+    <div class="container pt-4 pb-4">
+        <div class="">
+            <div class="">
+                <h4>Service & Policy</h4>
+                <div>
+                    <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> Cash on delivery available in most areas </p>
+                    <p class="border border-secondary p-2"><i class="fa-regular fa-money-bill-1"></i> Cash on delivery available in most areas  <span class="text-success">(saving ₹99) </span></p>
+                    <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> 10 days easy returns with free pick up </p>
+                </div>
+            </div>    
+        </div>
+    </div>
+    </div>
+</section>   -->
+
+<!-- <section id="delivery">
+    <div class="delivery-box">
+    <div class="container pt-4 pb-4">
+        <div class="">
+            <div class="">
+                <h4>Delivery Info</h4>
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Enter a Pincode" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-dark">Check</button>
+                  </div>
+                <p class="mt-2">Delivery date: Enter pincode to check</p>
+            </div>    
+        </div>
+    </div>
+    </div>
+</section>  -->
+
+<!-- <section id="Model_Stats">
+    <div class="Model-Stats-box">
+    <div class="container pt-4 pb-4">
+            <div class="" id="cm-in">
+            <div class="border border-secondary p-2">
+            <div><span>Model Stats</span></div>
+            <div class="float-end cm-in-box">    
+            <ul class="nav nav-pills" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#tt">CM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#rr">IN</a>
+              </li>
+            </ul>
+            </div>
+            </div>
+          
+          
+            <div class="row border border-secondary m-0">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3"><img src="assets/images/table.jfif" alt="" class="w-100 mt-2 mb-2"></div>
+            <div class="tab-content col-9 col-sm-9 col-md-9 col-lg-9">
+                <div>
+                    <ul class="list-unstyled d-flex border-bottom m-auto pb-2 pt-2 kr-fi">
+                        <li>kristina-s</li>
+                        <li>Fitting: S</li>
+                    </ul>    
+              </div>   
+              <div>
+                <ul class="list-unstyled d-flex m-auto">
+                    <li class="m-auto">Height</li>
+                    <li class="m-auto">Weight</li>
+                    <li class="m-auto">Bust</li>
+                    <li class="m-auto">Waist</li>
+                    <li class="m-auto">Hips</li>
+                </ul>    
+              </div>  
+              <div id="tt" class="tab-pane active">
+                <ul class="list-unstyled d-flex m-auto list-li">
+                    <li>180cm</li>
+                    <li>56kg</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+
+                </ul>    
+            </div>
+              <div id="rr" class="tab-pane fade">
+                <ul class="list-unstyled d-flex m-auto list-li">
+                    <li>180cmvv</li>
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>    
+            </div>
+              
+            </div>
+            </div>
+
+
+          </div>
+</div>
+     
+
+
+</div>
+</section>  -->
+
+<!-- <section id="">
+    <div class="">
+    <div class="container pt-4 pb-4">
+        <div class="accordion" id="accordionExample">
+            <div class="border border-secondary">
+              <div class="border-box p-2"><h5>Detail</h5></div>
+              <div id="" class="row m-0" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                
+              </div>
+              
+              <div id="collapseTwo" class="row m-0 accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 border-box">
+                    <div><span>Material:<br><span class="text-secondary">Polyester</span></div>
+                </div>
+              </div>
+              <h2 class="border-top border-secondary" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   View More
+                </button>
+              </h2>
+            </div>
+          </div>
+    </div>
+    </div>
+</section>  -->
+
+<!-- <section id="">
+    <div class="">
+    <div class="container ">
+        
+
+
+        <div class="" id="cm-in">
+            <div class=" pb-2">
+            <div><span class="pm">Product Measurements</span></div>
+            <div class="float-end cm-in-box">    
+            <ul class="nav nav-pills" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#r">CM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#t">IN</a>
+              </li>
+            </ul>
+            </div>
+            </div>
+          
+           
+            <div class="row border border-secondary m-0">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 nr-box">
+                <ul class="list-unstyled m-auto">
+                    <li class="m-auto pb-2 pt-2">Size</li>
+                    <li class="m-auto pb-2 pt-2">Length</li>
+                    <li class="m-auto pb-2 pt-2">Shoulder</li>
+                    <li class="m-auto pb-2 pt-2">Bust</li>
+                    <li class="m-auto pb-2 pt-2">Sleeve</li>
+                    <li class="m-auto pb-2 pt-2">Sleeve Width</li>
+                </ul>    
+            </div>
+            <div class="tab-content col-8 col-sm-8 col-md-8 col-lg-8">
+                <div>
+                    <ul class="list-unstyled d-flex border-bottom m-auto list-li pb-2 pt-2">
+                            <li>S</li>
+                                <li>M</li>
+                                    <li>L</li>
+                                        <li>XL</li>
+                    </ul>    
+              </div>  
+              <div id="r" class="tab-pane active">
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                <li>20.3</li>
+                <li>20.7</li>
+                <li>21.3</li>
+                <li>21.9</li>
+                </ul> 
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>20.3</li>
+                    <li>20.7</li>
+                    <li>21.3</li>
+                    <li>21.9</li>
+                    </ul>
+                    <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                        <li>20.3</li>
+                        <li>20.7</li>
+                        <li>21.3</li>
+                        <li>21.9</li>
+                        </ul>
+                        <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                            <li>20.3</li>
+                            <li>20.7</li>
+                            <li>21.3</li>
+                            <li>21.9</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                                <li>20.3</li>
+                                <li>20.7</li>
+                                <li>21.3</li>
+                                <li>21.9</li>
+                                </ul>
+
+            </div>
+              <div id="t" class="tab-pane fade">
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>  
+                <ul class="list-unstyled d-flex m-auto pb-2 pt-2 list-li">
+                    <li>56kgvv</li>
+                    <li>86cm</li>
+                    <li>63cm</li>
+                    <li>96cm</li> 
+                </ul>    
+            </div>
+              
+            </div>
+            </div>
+
+
+          </div>
+    </div>
+    </div>
+</section>  -->
+
+<section id="section1">
+    <div class="discount">
+    <div class="container pt-4 pb-4">
+        <h3 class="text-center">You May Also Like</h3>
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
+                <div class="m-1">
+                <img src="assets/images/pr1.jfif" class="w-100" alt="">
+                <div class="p-2 mb-2">
+                       <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
+                        <p class="text-muted strike-de"><strike>₹690</strike></p>
+                        <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section> 
+
+<div class="text-center loading d-md-none d-lg-none">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  
+
+<footer>
+    <div id="footer-pc" class="d-none d-sm-none d-md-block d-lg-block text-dark">
+    <div class="container pt-4 pb-4 foot-pc">
+        <div class="row">
+        <div class="col-md-2 col-lg-2 col-xl-2 col-xxl-4">
+            <h3>About</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-decoration-none text-dark">About Us</a></li>
+                <li><a href="" class="text-decoration-none text-dark">Return Policy</a></li>
+                <li><a href="" class="text-decoration-none text-dark">Shipping & Delivery</a></li>
+                <li><a href="" class="text-decoration-none text-dark">More</a></li>
+            </ul>
+        </div>  
+        <div class="col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+            <h3>Any Question</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-decoration-none text-dark">FAQs</a></li>
+                <li><a href="" class="text-decoration-none text-dark">Customer Service</a></li>
+                <li><a href="" class="text-decoration-none text-dark">My Profile</a></li>
+                <li><a href="" class="text-decoration-none text-dark">Settings</a></li>
+            </ul>
+        </div>    
+            <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <h3>Categories</h3>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-decoration-none text-dark">Top</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Bottoms</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Dresses & Skirts</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Co-ords</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Sports</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Jewelry</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Bags</a></li> 
+                    </ul>
+                </div>
+            
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <ul class="list-unstyled">
+                    <li><a href="" class="text-decoration-none text-dark">Bags</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Lingerie</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Pyiamas</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Swimwear</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Curve</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Sweaters & Sweatshirts</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Outerwears</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Phone Accessories</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">other Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                <h3>Categories</h3>
+                <div>
+                <ul class="list-unstyled">
+                <li><a href="" class="text-decoration-none text-dark">Facebook</a></li>
+                <li><a href="" class="text-decoration-none text-dark">Twitter</a></li>
+                <li><a href="" class="text-decoration-none text-dark">YouTube</a></li>
+                </ul>
+                </div>
+                <div>
+                <p><b>Call Us : 1800 890 1222</b><br>
+                    8:00 AM to 8:00 PM, 365 days</p>
+                </div>
+           
+                <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div><img src="assets/images/google-play.png" width="100%" alt=""></div>
+                </div>
+            
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div><img src="assets/images/app-store.png" width="100%" alt=""></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="d-block d-sm-block d-md-none d-lg-none position-fixed w-100 bottom-manu">
+        <div class="back-color">
+        <div class="row m-auto">
+            <div class="col-2 col-sm-2 m-auto">
+                <div class="text-center"><span class="footer-icon"><img src="assets/images/icon-fot1.png" width="60%" alt=""></div>
+            </div>
+            <div class="col-2 col-sm-2 m-auto">
+                <div class="text-center"><span class="footer-icon"><img src="assets/images/icon-fot2.png" width="60%" alt=""></span></div>
+            </div>
+            <div class="col-2 col-sm-2 m-auto">
+                <div class="text-center"><span class="footer-icon"><img src="assets/images/icon-fot3.png" width="60%" alt=""></span></div>
+            </div>
+            <div class="col-6 col-sm-6">
+                <div class="text-center p-2"><span class="footer-icon"><button type="button" class="btn btn-danger w-100 border-0">ADD TO BAG</button></div>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<div id="sidbarb" style="position: fixed; z-index: 2147483647; display: block;">
+    <a href="https://wa.me/918094374568"><img src="assets/images/offer.jfif"></a>
+   </div>
+
+<script>
+
+
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    // margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+</script>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("discount-sirvi");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky-sirvi")
+      } else {
+        navbar.classList.remove("sticky-sirvi");
+      }
+    }
+    </script>
+
+
+<script>
+
+var input = document.querySelector('#qty');
+var btnminus = document.querySelector('.qtyminus');
+var btnplus = document.querySelector('.qtyplus');
+
+if (input !== undefined && btnminus !== undefined && btnplus !== undefined && input !== null && btnminus !== null && btnplus !== null) {
+	
+	var min = Number(input.getAttribute('min'));
+	var max = Number(input.getAttribute('max'));
+	var step = Number(input.getAttribute('step'));
+
+	function qtyminus(e) {
+		var current = Number(input.value);
+		var newval = (current - step);
+		if(newval < min) {
+			newval = min;
+		} else if(newval > max) {
+			newval = max;
+		} 
+		input.value = Number(newval);
+		e.preventDefault();
+	}
+
+	function qtyplus(e) {
+		var current = Number(input.value);
+		var newval = (current + step);
+		if(newval > max) newval = max;
+		input.value = Number(newval);
+		e.preventDefault();
+	}
+		
+	btnminus.addEventListener('click', qtyminus);
+	btnplus.addEventListener('click', qtyplus);
+  
+} 
+    </script>
+</body>
+</html>

@@ -16,7 +16,6 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <!-- OwlCarousel2 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -136,7 +135,7 @@
                 <div class="container-sirvi">
                 <div class="mb-4">
                     <div class="row coat"><span class="col-10 col-sm-10 col-md-10 col-lg-10"><h4 class="m-auto">Button Duffle Coat</h4></span><span class="col-2 col-sm-2 col-md-2 col-lg-2"><img src="assets/images/share.png" class="h4-color float-end d-block d-sm-block d-md-none d-lg-none" alt=""></span></div>
-                    <hr>
+                   
                     <h4><span class="text-danger">-20%</span><span class="str-price"><strike class="text-secondary">₹1,790</strike></span></h4>
                     <h4><span>₹1,432</span></h4>
                 </div>
@@ -163,7 +162,7 @@
                 </div>
 
                 <div>
-                    <div class="row"><span class="col-6 col-sm-6 col-md-6 col-lg-6"><h5 class="h4-color">Size</h5></span><span class="col-6 col-sm-6 col-md-6 col-lg-6"><h5 class="h4-color float-end"><a href="size-guide.html">Size Guide <i class="fa-solid fa-chevron-right"></i></a></h5></span></div>
+                    <div class="row"><span class="col-6 col-sm-6 col-md-6 col-lg-6"><h5 class="h4-color">Size</h5></span><span class="col-6 col-sm-6 col-md-6 col-lg-6" data-bs-toggle="modal" data-bs-target="#exampleModal"><h5 class="h4-color float-end border border-secondary" style="padding: 2px 15px 2px 15px;">Size Guide <i class="fa-solid fa-chevron-right"></i></h5></span></div>
                     <ul class="list-unstyled d-flex">
                        <li class="m-2"><span class="btn btn-outline-secondary">S</span></li>
                        <li class="m-2"><span class="btn btn-outline-secondary">M</span></li>
@@ -174,19 +173,12 @@
 
                 
                
-                <div class="">
+                <!-- <div class="">
                     <ul class="nav nav-pills d-flex border border-secondary p-2" role="tablist">
                         <li class="m-auto"><a class="" data-bs-toggle="pill" href="#f">Description</a></li>
                         <li class="m-auto"><a class="" data-bs-toggle="pill" href="#g">Wash Care</a></li>
                     </ul>
-                    <!-- <ul class="nav nav-pills" role="tablist">
-                        <li class="">
-                          <a class="nav-link active" data-bs-toggle="pill" href="#f">CM</a>
-                        </li>
-                        <li class="">
-                          <a class="nav-link" data-bs-toggle="pill" href="#g">IN</a>
-                        </li>
-                      </ul> -->
+                   
                     <div class="tab-content border border-secondary p-2">
                         <div id="f" class="tab-pane active">
                             <div>
@@ -214,7 +206,7 @@
                         </div>
                         
                    </div>
-                </div>
+                </div> -->
 
                  
                 <div class="pt-4 pb-4">
@@ -223,8 +215,8 @@
                             <h4>Service & Policy</h4>
                             <div>
                                 <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> Cash on delivery available in most areas </p>
-                                <p class="border border-secondary p-2"><i class="fa-regular fa-money-bill-1"></i> Cash on delivery available in most areas  <span class="text-success">(saving ₹99) </span></p>
-                                <p class="border border-secondary p-2"><i class="fa-solid fa-credit-card"></i> 10 days easy returns with free pick up </p>
+                                <p class="border border-secondary border-top-0 p-2"><i class="fa-regular fa-money-bill-1"></i> Cash on delivery available in most areas  <span class="text-success">(saving ₹99) </span></p>
+                                <p class="border border-secondary border-top-0 p-2"><i class="fa-solid fa-credit-card"></i> 10 days easy returns with free pick up </p>
                             </div>
                         </div>    
                     </div>
@@ -260,7 +252,7 @@
                     </div>
                   
                     <!-- Tab panes -->
-                    <div class="row border border-secondary m-0">
+                    <div class="row border border-secondary border-top-0 m-0">
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3"><img src="assets/images/table.jfif" alt="" class="w-100 mt-2 mb-2"></div>
                     <div class="tab-content col-9 col-sm-9 col-md-9 col-lg-9">
                         <div>
@@ -809,8 +801,9 @@
         <div class="row">
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -819,8 +812,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -829,8 +823,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -839,8 +834,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -851,8 +847,9 @@
 
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -861,8 +858,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -871,8 +869,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>    
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -881,8 +880,9 @@
             </div>
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-0 pr-1">
                 <div class="m-1">
+                    <div style="position: absolute;margin-left: 3px;margin-top: 10px;"><img src="assets/images/delpng.png" alt="" style=" width: 49%;padding-left: 8px;"></div>   
                 <img src="assets/images/pr1.jfif" class="w-100" alt="">
-                <div class="p-2 mb-2">
+                <div class="border border-secondary p-2 mb-2">
                        <h5><span class="text-danger">-58%</span><span> ₹289 </span></h5>
                         <p class="text-muted strike-de"><strike>₹690</strike></p>
                         <span><img src="assets/images/col-prod.jfif" alt="" width="13%" class="rounded-circle border border-dark p2"></span>
@@ -1005,9 +1005,352 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Measurements</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+ 
+        
+
+            <!-- <div id="g" class="tab-pane active mt-2">
+                <div class="" id="cm-in">
+                    <div class=" pb-2">
+                    <div><span class="pm"></span></div>
+                    <div class="float-end cm-in-box">    
+                    <ul class="nav nav-pills" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="pill" href="#r">cm</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#t">inch</a>
+                      </li>
+                    </ul>
+                    </div>
+                    </div>
+                  
+                    
+                    <div class="border border-secondary m-0">
+                    
+                    <div class="tab-content">
+                        
+                      <div id="r" class="tab-pane active table-responsive">
+                        
+
+
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr class="productChart--caption--Mu7QAcJ">
+                                    <th class="productChart--headerCell--Mz2hdMi productChart--firstCell--HaM0ijM">Size</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">XS</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">S</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">M</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">L</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">XL</th>
+                                    <th class="productChart--headerCell--Mz2hdMi">2XL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="productChart--row--G5ENkcV">
+                                    <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Length(cm)</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">64</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">66</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">68</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">70</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">74</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">76</td>
+                                </tr>
+                                <tr class="productChart--row--G5ENkcV">
+                                    <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Shoulder(cm)</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">43</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">45</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">47</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">49</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">53</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">55</td>
+                                </tr>
+                                <tr class="productChart--row--G5ENkcV">
+                                    <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Bust(cm)</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">96</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">100</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">104</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">108</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">116</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">120</td>
+                                </tr><tr class="productChart--row--G5ENkcV">
+                                    <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Sleeve(cm)</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">19</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">19.5</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">20</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">20.5</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">21.5</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">22</td>
+                                </tr><tr class="productChart--row--G5ENkcV">
+                                    <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Sleeve Width(cm)</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">39</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">40</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">41</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">42</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">44</td>
+                                    <td class="productChart--bodyCell--JVgeLTw">45</td>
+                                </tr>
+                            </tbody>
+                            </table>
+        
+                    </div>
+                      <div id="t" class="tab-pane show table-responsive">
+                        
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="productChart--caption--Mu7QAcJ">
+                                <th class="productChart--headerCell--Mz2hdMi productChart--firstCell--HaM0ijM">Size</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XS</th>
+                                <th class="productChart--headerCell--Mz2hdMi">S</th>
+                                <th class="productChart--headerCell--Mz2hdMi">M</th>
+                                <th class="productChart--headerCell--Mz2hdMi">L</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XL</th>
+                                <th class="productChart--headerCell--Mz2hdMi">2XL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Length(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">25.2</td>
+                                <td class="productChart--bodyCell--JVgeLTw">26</td>
+                                <td class="productChart--bodyCell--JVgeLTw">26.8</td>
+                                <td class="productChart--bodyCell--JVgeLTw">27.6</td>
+                                <td class="productChart--bodyCell--JVgeLTw">29.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">29.9</td>
+                            </tr>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Shoulder(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">18.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">19.3</td>
+                                <td class="productChart--bodyCell--JVgeLTw">20.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">21.7</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Bust(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">37.8</td>
+                                <td class="productChart--bodyCell--JVgeLTw">39.4</td>
+                                <td class="productChart--bodyCell--JVgeLTw">40.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">42.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">45.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">47.2</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Sleeve(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.7</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart--bodyCell--JVgeLTw productChart--firstCell--HaM0ijM">Sleeve Width(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">15.4</td>
+                                <td class="productChart--bodyCell--JVgeLTw">15.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.3</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.7</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div> -->
+
+           <style>
+            .productChart{background-color: #ffe4bb!important;}
+            tr{border-color: #ffe4bb;}
+            .nav-pills .nav-link.active{background-color: #ffe4bb!important; border-radius: 0px!important;
+    padding: 0px 9px 4px 9px!important;}
+    .nav-pills .nav-link{ padding: 0px 9px 4px 9px!important;}
+    tr{font-size: 13px;}
+    .productChart--bodyCell--JVgeLTw{text-align: center;}
+    .table>:not(caption)>*>*{padding: 7px;}
+           </style>
+            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="pill" href="#home">cm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="pill" href="#menu1">inch</a>
+                </li>
+              </ul>
+            
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="productChart--caption--Mu7QAcJ">
+                                <th class="productChart">Size</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XS</th>
+                                <th class="productChart--headerCell--Mz2hdMi">S</th>
+                                <th class="productChart--headerCell--Mz2hdMi">M</th>
+                                <th class="productChart--headerCell--Mz2hdMi">L</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XL</th>
+                                <th class="productChart--headerCell--Mz2hdMi">2XL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Length(cm)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">64</td>
+                                <td class="productChart--bodyCell--JVgeLTw">66</td>
+                                <td class="productChart--bodyCell--JVgeLTw">68</td>
+                                <td class="productChart--bodyCell--JVgeLTw">70</td>
+                                <td class="productChart--bodyCell--JVgeLTw">74</td>
+                                <td class="productChart--bodyCell--JVgeLTw">76</td>
+                            </tr>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Shoulder(cm)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">43</td>
+                                <td class="productChart--bodyCell--JVgeLTw">45</td>
+                                <td class="productChart--bodyCell--JVgeLTw">47</td>
+                                <td class="productChart--bodyCell--JVgeLTw">49</td>
+                                <td class="productChart--bodyCell--JVgeLTw">53</td>
+                                <td class="productChart--bodyCell--JVgeLTw">55</td>
+                            </tr>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Bust(cm)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">96</td>
+                                <td class="productChart--bodyCell--JVgeLTw">100</td>
+                                <td class="productChart--bodyCell--JVgeLTw">104</td>
+                                <td class="productChart--bodyCell--JVgeLTw">108</td>
+                                <td class="productChart--bodyCell--JVgeLTw">116</td>
+                                <td class="productChart--bodyCell--JVgeLTw">120</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Sleeve(cm)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">19</td>
+                                <td class="productChart--bodyCell--JVgeLTw">19.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">20</td>
+                                <td class="productChart--bodyCell--JVgeLTw">20.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">21.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">22</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Sleeve Width(cm)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">39</td>
+                                <td class="productChart--bodyCell--JVgeLTw">40</td>
+                                <td class="productChart--bodyCell--JVgeLTw">41</td>
+                                <td class="productChart--bodyCell--JVgeLTw">42</td>
+                                <td class="productChart--bodyCell--JVgeLTw">44</td>
+                                <td class="productChart--bodyCell--JVgeLTw">45</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <table class="table table-bordered table-responsive">
+                        <thead>
+                            <tr class="productChart--caption--Mu7QAcJ">
+                                <th class="productChart">Size</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XS</th>
+                                <th class="productChart--headerCell--Mz2hdMi">S</th>
+                                <th class="productChart--headerCell--Mz2hdMi">M</th>
+                                <th class="productChart--headerCell--Mz2hdMi">L</th>
+                                <th class="productChart--headerCell--Mz2hdMi">XL</th>
+                                <th class="productChart--headerCell--Mz2hdMi">2XL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Length(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">25.2</td>
+                                <td class="productChart--bodyCell--JVgeLTw">26</td>
+                                <td class="productChart--bodyCell--JVgeLTw">26.8</td>
+                                <td class="productChart--bodyCell--JVgeLTw">27.6</td>
+                                <td class="productChart--bodyCell--JVgeLTw">29.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">29.9</td>
+                            </tr>
+                            <tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Shoulder(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">18.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">19.3</td>
+                                <td class="productChart--bodyCell--JVgeLTw">20.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">21.7</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Bust(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">37.8</td>
+                                <td class="productChart--bodyCell--JVgeLTw">39.4</td>
+                                <td class="productChart--bodyCell--JVgeLTw">40.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">42.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">45.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">47.2</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Sleeve(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">7.9</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">8.7</td>
+                            </tr><tr class="productChart--row--G5ENkcV">
+                                <td class="productChart">Sleeve Width(in)</td>
+                                <td class="productChart--bodyCell--JVgeLTw">15.4</td>
+                                <td class="productChart--bodyCell--JVgeLTw">15.7</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.1</td>
+                                <td class="productChart--bodyCell--JVgeLTw">16.5</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.3</td>
+                                <td class="productChart--bodyCell--JVgeLTw">17.7</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+                
+              </div>
+            </div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
 <div id="sidbarb" style="position: fixed; z-index: 2147483647; display: block;">
     <a href="https://wa.me/918094374568"><img src="assets/images/offer.jfif"></a>
    </div>
+
+
+
+<script>
+    var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+</script>
 
 <script>
 

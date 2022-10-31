@@ -90,7 +90,7 @@ text-overflow: ellipsis;}
 .sticky-sirvi {
     top: 0px;
     position: fixed;
-    background-color: white;
+    background-color: #ffdec5;
     width: 100%;
     -webkit-transition: all ease-out .5s;
           -moz-transition: all ease-out .5s;

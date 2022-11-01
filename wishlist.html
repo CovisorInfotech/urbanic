@@ -30,7 +30,67 @@
 
 </head>
 <body class="bg-body-nr"> 
-   <div class="bg-white border-bottom-secondary position-fixed w-100 border-bottom-nr">
+
+  <header class="d-md-block d-lg-block d-none d-sm-none" style="position: fixed;width: 100%;z-index: 200;">
+    <div class="">
+    <div class="top-head" style="background: #f47b1d;">    
+        <div class="d-flex flex-row p-2 container">    
+            <div class="col-2 col-sm-2 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-none d-sm-none d-md-block d-lg-block m-auto div-item">
+                <div>
+                    <span><i class="fa-solid fa-bars text-white"></i></span> <img src="assets/images/logo.png" class="w-25" alt="Logo">
+                </div>
+            </div>
+            <div class="col-9 col-sm-9 col-md-7 col-lg-7 col-xl-7 col-xxl-7 m-auto div-item">
+                <div class="">
+                    <div class="d-flex">
+                      <span class="btn btn-light rounded-0 shadow-none"><i class="fas fa-search"></i></span>  
+                      <input id="search-focus" type="search" class="form-control rounded-0 b-none" placeholder="Search for ID, category and more">
+                    </div>
+                  </div>
+            </div>
+            <!-- <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-none d-sm-none d-md-block d-lg-block m-auto div-item">
+                <div>
+                    <button type="button" class="btn btn-outline-warning">Login</button>
+                </div>
+            </div> -->
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 m-auto div-item">
+                <div>
+                    <ul class="list-unstyled d-flex m-auto">
+                        <li class="m-auto text-white d-flex"><i class="fa-solid fa-cart-plus"></i> <span class="d-none d-sm-none d-md-block d-lg-block cart-nr">Cart</span></li>
+                        <li class="m-auto text-white d-flex"><i class="fa-solid fa-user"></i> <span class="d-none d-sm-none d-md-block d-lg-block sign-nr">Sign in / Sign up</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="d-none d-sm-none d-md-block d-lg-block bg-head-back" style="background-color: #ffdec5;">
+        <div> <style>
+  .head-menu li a{color: black!important;}
+        </style>
+            <ul class="list-unstyled d-flex mb-3 head-menu">
+                <li class="nav-link active"><a href="" class="text-decoration-none ">Top</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Bottoms</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Dresses &amp; Skirts</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Co-ords</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Sports</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Jewelry</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Bags</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Lingerie</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Pyiamas</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Swimwear</a></li>
+                <li class="nav-link"><a href="" class="text-decoration-none ">Curve</a></li>
+                <!-- <li class="nav-link"><a href="">Sweaters & Sweatshirts</a></li>
+                <li class="nav-link"><a href="">Outerwears</a></li>
+                <li class="nav-link"><a href="">Phone Accessories</a></li>
+                <li class="nav-link"><a href="">other Accessories</a></li> -->
+            </ul>
+        </div>
+    </nav>    
+</div>
+</header>
+
+
+   <div class="bg-white border-bottom-secondary position-fixed w-100 border-bottom-nr d-md-none d-lg-none">
     <div class="container">
         <div class="row pt-2 pb-2">
             <div class="col-2 col-md-2 col-lg-2"><a href="faq.html"><img src="assets/images/laft-arr.png" alt="" class="head-back-icon"></a></div>
@@ -40,9 +100,16 @@
     </div>
    </div>
 
-
-    <section class="bg-white mt-1 mb-2 accordion-top">
+   <style>
+    @media only screen and (min-width: 600px) {
+    .div-top{padding-top: 120px!important;}
+    }
+   </style>
+    <section class=" mt-1 mb-2 accordion-top div-top">
         <div class="container">
+          <div class="row bg-white">
+            <div class="col-md-5 col-lg-5"></div>  
+          <div class="col-md-7 col-lg-7">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item pb-2">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -115,10 +182,11 @@
                     </div>
                   </div>
               </div>
+            </div>
         </div>        
     </section>            
    
-    <section class="mt-2 mb-2">
+    <section class="mt-2 mb-4">
         <div class="container">
             <div><p>Have more question? <b>Contact Customer Service</b></p></div>
         </div>
